@@ -101,26 +101,6 @@ namespace TftScreenShoot
             try
             {
 
-                /*    int screenLeft = SystemInformation.VirtualScreen.Left;
-              int screenTop = SystemInformation.VirtualScreen.Top;
-              int screenWidth = SystemInformation.VirtualScreen.Width;
-              int screenHeight = SystemInformation.VirtualScreen.Height;
-              eskidosyasayisi = dosyasayisi;
-
-
-                  using (Bitmap bmp = new Bitmap(screenWidth, screenHeight))
-                  {
-                      using (Graphics g = Graphics.FromImage(bmp))
-                      {
-                          String filename = "RakipEkran-" + DateTime.Now.ToString("ddMMyyyy-hhmmss") + ".png";
-                          Opacity = .0;
-                          g.CopyFromScreen(screenLeft, screenTop, 0, 0, bmp.Size);
-                          bmp.Save("Z:\\ScreenShoots\\" + filename);
-                          Opacity = 1;
-
-                          pictureBox1.Image = Image.FromFile("Z:\\ScreenShoots\\" + filename);
-                      }
-                  }*/
 
 
                 //////////////////////
@@ -134,10 +114,8 @@ namespace TftScreenShoot
                     File.Delete(eskidosyayolu);
                  // dosyasayisi =  dosyasayisi + 1;
                     myImage.Save(dosyayolu);
-                    this.Show();
-                          
-            
-            }
+                    this.Show();                 
+                        }
             catch(Exception)
             {
 

@@ -27,7 +27,7 @@ namespace TftScreenShoot
         int dosyasayisi ;
         
        
-
+   
         public Form1()
         {
             //  this.TopMost = true;          
@@ -135,8 +135,8 @@ namespace TftScreenShoot
                  // dosyasayisi =  dosyasayisi + 1;
                     myImage.Save(dosyayolu);
                     this.Show();
-                     
-
+                          
+            
             }
             catch(Exception)
             {
